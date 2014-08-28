@@ -41,7 +41,7 @@ text-align: center;
 					$url = "http://169.254.169.254/latest/meta-data/placement/availability-zone";
 					$zone = file_get_contents($url);
 					echo "Zone: <b>" . $zone . "</b><br/>";
-					echo "<p style='background-color:green;'><b>I am the green deployment</b></p>"
+					echo "<p style='background-color:blue;'><b>I am the blue deployment</b></p>"
 				?>
 				</p>
 			</div>
